@@ -1,6 +1,6 @@
 import Chart from 'chart.js/auto';
 import { UI_ELEMENTS } from './views.js';
-import * as data from './gpu_data_filtered.json';
+import * as data from '../../json/gpu_data_filtered.json';
 import * as hdmiSupportData from '../../json/hdmiSupport.json'
 import * as vgaSupport from '../../json/vgaSupport.json'
 import * as dviSupportData from '../../json/dviSupport.json'
