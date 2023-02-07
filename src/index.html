@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+  <div class="container">
+    <div class="canvas-wrapper">
+    <canvas id="ratioChart" width="800px" height="600px"></canvas>
+    <canvas id="clockRatioChart" width="800px" height="600px"></canvas>
+    <canvas id="vramChart" width="800px" height="600px"></canvas>
+    <canvas id="expensiveChart" width="800px" height="600px"></canvas>
+    <canvas id="cheapestChart" width="800px" height="600px"></canvas>
+    <canvas id="connectorsPopularityChart" width="400px" height="400px"></canvas>
+    <table id="hdmiTable">
+      <tr>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Specification</th>
+        <th>Connector type: HDMI</th>
+      </tr>
+      <template id="table-template">
+          <tr>
+              <td id="tableID">Alfreds Futterkiste</td>
+              <td id="table-title">Maria Anders</td>
+              <td id="table-specifications">Germany</td>
+              <td id="table-connectors">Germany</td>
+            </tr>
+      </template>
+    </table> 
+
+
+    <table id="VGATable">
+      <tr>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Specification</th>
+        <th>Connector type: VGA</th>
+      </tr>
+      <template id="table-template">
+          <tr>
+              <td id="tableID">Alfreds Futterkiste</td>
+              <td id="table-title">Maria Anders</td>
+              <td id="table-specifications">Germany</td>
+              <td id="table-connectors">Germany</td>
+            </tr>
+      </template>
+    </table> 
+
+    <table id="DVITable">
+      <tr>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Specification</th>
+        <th>Connector type: DVI-D</th>
+      </tr>
+      <template id="table-template">
+          <tr>
+              <td id="tableID">Alfreds Futterkiste</td>
+              <td id="table-title">Maria Anders</td>
+              <td id="table-specifications">Germany</td>
+              <td id="table-connectors">Germany</td>
+            </tr>
+      </template>
+    </table> 
+  </div>
+  </div>
+    
+
+    <script type="module" src="./js/index.js"></script>
+</body>
+</html>

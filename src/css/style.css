@@ -1,0 +1,36 @@
+body, ul    {
+    margin: 0;
+    padding: 0;
+}
+
+.container  {
+    width: 100vw;
+}
+
+.canvas-wrapper     {
+    width: 50vw;
+    margin: 0 auto;
+}
+#table-connectors   {
+    text-align: center;
+}
+
+#table-specifications, #table-title, #tableID, #table-connectors    {
+    border: 1px solid black;
+}
+
+#table-title   {
+    width: 441px;
+}
+
+#table-specifications   {
+    width: 170px;
+}
+
+#table-connectors   {
+    width: 198px;
+}
+
+#connectorsPopularityChart  {
+    margin: 0 auto;
+}
